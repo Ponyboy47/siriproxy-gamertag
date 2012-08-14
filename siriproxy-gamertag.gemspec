@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "siriproxy-gamertag"
-  s.version     = "1.0.0" 
+  s.version     = "1.1.0"
   s.authors     = ["Ponyboy47"]
   s.email       = ["ponyboy47@gmail.com"]
   s.homepage    = ""
@@ -20,5 +20,5 @@ Gem::Specification.new do |s|
   # specify any dependencies here; for example:
   # s.add_development_dependency "rspec"
   # s.add_runtime_dependency "rest-client"
-   s.add_runtime_dependency "gamertag"
+   s.add_runtime_dependency "json"
 end

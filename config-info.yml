@@ -8,4 +8,4 @@
 
     - name: 'Gamertag'
       git: 'git://github.com/Ponyboy47/siriproxy-gamertag.git'
-      Gamertag: 'YOUR_GAMERTAG' #Optional. Don't need to have this specified if you don't have one
+      Gamertag: 'YOUR_GAMERTAG'
