@@ -28,7 +28,7 @@ class SiriProxy::Plugin::Gamertag < SiriProxy::Plugin
     return tag
   end
   
-  listen_for /Gamertag (.*)/i do |usertag|
+  listen_for /Gamer tag (.*)/i do |usertag|
     gamertag = makeName(usertag)
     profile = GamertagProfile.new("#{gamertag}")
     profileView = SiriAddViews.new
